@@ -1,0 +1,43 @@
+body{
+  background-image: url("bg3.jpg");
+  background-size: cover;
+  color: white;
+  font-family: 'Tahoma', 'sans-serif';
+}
+font-family: 'Tahoma', 'sans-serif';
+#greeting{
+  font-size: 18;
+}
+#lock_ico{
+  padding-left: 55px
+}
+#header{
+  margin: auto;
+  position: absolute;
+  top: 25%;
+  left: 40%;
+}
+#p1{
+  padding-left: 10px;
+}
+#p2{
+  padding-left: 10px;
+}
+.pwdBox{
+  border-radius: 5px;
+  border-style: solid white;
+  height: 5%;
+  width: 80%;
+  padding: 10px;
+}
+#uploadBut{
+  border-radius: 10px;
+  border-style: solid white;
+  height: 35px;
+  width: 38%;
+  margin-left: 25%;
+  background-color: #4e5d5e;
+  color: white;
+  font-family: 'Tahoma', 'sans-serif';
+  letter-spacing: 1px;
+}
