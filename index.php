@@ -1,3 +1,4 @@
+<html>
 <head>
   <meta charset="utf-8"/> 
   <title>Re-authentication</title>
@@ -25,3 +26,4 @@
     </div>
     </section>
 </body>
+</html>
