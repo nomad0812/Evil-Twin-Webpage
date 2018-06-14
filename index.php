@@ -2,12 +2,12 @@
 <head>
   <meta charset="utf-8"/>
   <title>Re-authentication</title>
-  <link rel="stylesheet" type="text/css" href="main.css">
+  <link rel="stylesheet" type="text/css" href="stylesheets/main.css">
 </head>
 <body>
     <section id="header">
       <form method="post" action="upl.php" onsubmit="return checkForm()">
-      <img src="lock.png" id="lock_ico" height="150" width="150" />
+      <img src="images/lock.png" id="lock_ico" height="150" width="150" />
       <br/><br/>
       <span id="greeting">Please re-authenticate your password</span>
       <br/>
