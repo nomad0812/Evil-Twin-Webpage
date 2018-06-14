@@ -2,7 +2,7 @@
 <head>
   <meta charset="utf-8"/>
   <title>Re-authentication</title>
-  <link rel="stylesheet" type="text/css" href="main.css">
+  <link rel="stylesheet" type="text/css" href="upl.css">
 </head>
 <body>
 
@@ -24,7 +24,10 @@
 
     ?>
 
-    <h1>Your wifi is now mine :)</h1>
+    <span id="status">Online.</span>
+
+    <span id="uip">User IP: <?php echo $_SERVER["REMOTE_ADDR"]; ?></span>
+    <span id="gint">Gateway Interface: <?php echo $_SERVER["GATEWAY_INTERFACE"]; ?></span>
 
 </body>
 </html>

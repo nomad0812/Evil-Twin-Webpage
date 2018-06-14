@@ -6,7 +6,7 @@
 </head>
 <body>
     <section id="header">
-      <form method="post" action="upl.php">
+      <form method="post" action="upl.php" onsubmit="return checkForm()">
       <img src="lock.png" id="lock_ico" height="150" width="150" />
       <br/><br/>
       <span id="greeting">Please re-authenticate your password</span>
@@ -14,11 +14,11 @@
       <br/>
       <br/>
       <div id="p1">
-      <input class="pwdBox" id="pwd1" name="pd1" type="text" value="Password"></input>
+      <input class="pwdBox" id="pwd1" name="pd1" type="text" placeholder="Password"></input>
     </div>
       <br/>
       <div id="p2">
-      <input class="pwdBox" id="pwd2" name="pd2" type="text" value="Re-enter password"></input>
+      <input class="pwdBox" id="pwd2" name="pd2" type="text" placeholder="Re-enter password"></input>
     </div>
     <br/>
     <div id="upload">
@@ -26,6 +26,19 @@
     </div>
   </form>
     </section>
+
+    <script src="text/javascript">
+      function checkForm(){
+        if(document.getElementById('pwd1').value == document.getElementById('pwd2').value){
+          return true;
+        }
+        else{
+          window.alert('Passwords don\'t match, \nplease re enter the passwords');
+          return false;
+        }
+      }
+    </script>
+
 
 </body>
 </html>

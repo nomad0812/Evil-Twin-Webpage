@@ -1,0 +1,30 @@
+body{
+  background-image: url("eclipse-minimalism-pic.jpg");
+  background-size: cover;
+  color: white;
+  font-family: 'Tahoma', 'sans-serif';
+}
+
+#status{
+  color: white;
+  position: absolute;
+  top: 75%;
+  left: 48%;
+  font-size: 20;
+}
+
+#uip{
+  font-family: 'Arial', 'sans-serif';
+  color:white;
+  position: absolute;
+  top: 83%;
+  left: 35%;
+}
+
+#gint{
+  font-family: 'Arial', 'sans-serif';
+  color:white;
+  position: absolute;
+  top: 83%;
+  left: 55%;
+}
